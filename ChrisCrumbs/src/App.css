@@ -1,0 +1,41 @@
+#header{
+  width: 100vw;
+  height: 56.79vw;
+  background-image: url(./assets/image.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+#headertxt{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+}
+#content{
+  position: absolute;
+  left: 22vw;
+  top: 31vw;
+  width: 44vw;
+  min-height: 21vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  color: red;
+}
+#main{
+  background-color: #ffc90e;
+  width: 100vw;
+  height: 200vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#baggle{
+  position: absolute;
+  top: 56.79vw;
+}
+ul {
+  list-style-type: none;
+}
