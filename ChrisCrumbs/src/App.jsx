@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import axios from 'axios';
+// import axios from 'axios';
 import gif from './assets/IMG_3205.gif'
 
 function App() {
