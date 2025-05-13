@@ -16,7 +16,9 @@ function App() {
         <div id="header">
           <div id="content">
             <ul>
-              <li> <a href={newsletter.url}>{newsletter.date}</a></li>
+              {letters.map((newsletter, i) => (
+                <li> <a href={newsletter.url}>{newsletter.date}</a></li>
+              ))}
             </ul>
           </div>
         </div>
