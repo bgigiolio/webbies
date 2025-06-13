@@ -6,7 +6,10 @@ import gif from './assets/IMG_3205.gif'
 function App() {
   const [count, setCount] = useState(0)
   // const baseURL = 'http://localhost:5000'
-  let letters = [{url: "https://ia601205.us.archive.org/31/items/newsletter-dia-de-la-tierra-elegante-verde/Newsletter%20d%C3%ADa%20de%20la%20tierra%20elegante%20verde.pdf", date: "April 2025"}]
+  let letters = [
+    {url: "https://ia601205.us.archive.org/31/items/newsletter-dia-de-la-tierra-elegante-verde/Newsletter%20d%C3%ADa%20de%20la%20tierra%20elegante%20verde.pdf", date: "April 2025"},
+    {url: "https://ia600903.us.archive.org/28/items/green-minimalist-company-newsletter_202506/Green%20Minimalist%20Company%20Newsletter.pdf", date: "May 2025"}
+  ]
   // useEffect(() => {
   //   axios.get(baseURL + "/")
   // })
