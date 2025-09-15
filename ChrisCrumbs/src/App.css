@@ -7,6 +7,8 @@
   left: 0;
   background-repeat: no-repeat;
   background-size:cover;
+  display:flex;
+  flex-direction: column;
 
 }
 #headertxt{
@@ -35,7 +37,12 @@
 #baggle{
   position: absolute;
   top: 56.79vw;
+  width: 22vw;
 }
 ul {
   list-style-type: none;
+}
+#main{
+  display:flex;
+  flex-direction: column;
 }
