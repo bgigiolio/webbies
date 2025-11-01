@@ -11,7 +11,8 @@ function App() {
     {url: "https://ia600903.us.archive.org/28/items/green-minimalist-company-newsletter_202506/Green%20Minimalist%20Company%20Newsletter.pdf", date: "May 2025"},
     {url: "https://ia600901.us.archive.org/14/items/jujfadu/jujfadu.pdf", date: "June 2025"},
     {url: "https://ia600905.us.archive.org/6/items/chrisletter-july/ChrisletterJuly.pdf", date: "July 2025"},
-    {url: "https://ia601002.us.archive.org/2/items/guppy-test-5/guppy%20test%205.pdf", date: "August 2025"}
+    {url: "https://ia601002.us.archive.org/2/items/guppy-test-5/guppy%20test%205.pdf", date: "August 2025"},
+    {url: "https://ia600205.us.archive.org/28/items/papageegee/papageegee.pdf", date: "September 2025"}
   ]
   // useEffect(() => {
   //   axios.get(baseURL + "/")
