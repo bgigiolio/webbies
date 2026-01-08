@@ -13,7 +13,8 @@ function App() {
     {url: "https://ia600905.us.archive.org/6/items/chrisletter-july/ChrisletterJuly.pdf", date: "July 2025"},
     {url: "https://ia601002.us.archive.org/2/items/guppy-test-5/guppy%20test%205.pdf", date: "August 2025"},
     {url: "https://ia600205.us.archive.org/28/items/papageegee/papageegee.pdf", date: "September 2025"},
-    {url: "https://ia803404.us.archive.org/34/items/october-newsletter/October%20Newsletter.pdf", date: "October 2025"}
+    {url: "https://ia803404.us.archive.org/34/items/october-newsletter/October%20Newsletter.pdf", date: "October 2025"},
+    {url: "https://ia601608.us.archive.org/12/items/november-newsletter_202601/November%20Newsletter.pdf", date: "November 2025"}
   ]
   // useEffect(() => {
   //   axios.get(baseURL + "/")
