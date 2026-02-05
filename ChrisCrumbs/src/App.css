@@ -27,9 +27,8 @@
 }
 #main{
   background-color: #ffc90e;
-  display: flex;
   width: 100vw;
-  flex-flow: column;
+  height: 1000vh;
   position: absolute;
   top: 0;
   left: 0;
