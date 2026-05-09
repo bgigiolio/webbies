@@ -20,7 +20,7 @@ function App() {
     {url: "https://ia801906.us.archive.org/8/items/feb-news-letter-feb-news-letter-feb-news-letter/Feb%20News%20LetterFeb%20News%20Letter%20-%20Feb%20News%20Letter.pdf", date: "February 2026"},
     {url: "https://ia600904.us.archive.org/25/items/march-newsletter/March%20Newsletter.pdf", date: "March 2026"}
   ]
-  letters = letter.reverse();
+  let letters = letter.reverse();
   // useEffect(() => {
   //   axios.get(baseURL + "/")
   // })
