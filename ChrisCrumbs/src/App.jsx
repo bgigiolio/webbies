@@ -6,7 +6,7 @@ import gif from './assets/IMG_3205.gif'
 function App() {
   const [count, setCount] = useState(0)
   // const baseURL = 'http://localhost:5000'
-  let letters = [
+  let letter = [
     {url: "https://ia601205.us.archive.org/31/items/newsletter-dia-de-la-tierra-elegante-verde/Newsletter%20d%C3%ADa%20de%20la%20tierra%20elegante%20verde.pdf", date: "April 2025"},
     {url: "https://ia600903.us.archive.org/28/items/green-minimalist-company-newsletter_202506/Green%20Minimalist%20Company%20Newsletter.pdf", date: "May 2025"},
     {url: "https://ia600901.us.archive.org/14/items/jujfadu/jujfadu.pdf", date: "June 2025"},
@@ -20,6 +20,7 @@ function App() {
     {url: "https://ia801906.us.archive.org/8/items/feb-news-letter-feb-news-letter-feb-news-letter/Feb%20News%20LetterFeb%20News%20Letter%20-%20Feb%20News%20Letter.pdf", date: "February 2026"},
     {url: "https://ia600904.us.archive.org/25/items/march-newsletter/March%20Newsletter.pdf", date: "March 2026"}
   ]
+  letters = letter.reverse();
   // useEffect(() => {
   //   axios.get(baseURL + "/")
   // })
