@@ -27,6 +27,8 @@ function App() {
   return (
     <>
       <div id="main">
+         <script data-goatcounter="https://chrisletter.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
         <div id="header">
           <div id="content">
             <ul>
