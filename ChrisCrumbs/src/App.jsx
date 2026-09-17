@@ -18,7 +18,8 @@ function App() {
     {url: "https://ia600407.us.archive.org/2/items/december-newsletter/December%20Newsletter.pdf", date: "December 2025"},
     {url: "https://ia903106.us.archive.org/15/items/january-newsletter/January%20Newsletter.pdf", date: "January 2026"},
     {url: "https://ia801906.us.archive.org/8/items/feb-news-letter-feb-news-letter-feb-news-letter/Feb%20News%20LetterFeb%20News%20Letter%20-%20Feb%20News%20Letter.pdf", date: "February 2026"},
-    {url: "https://ia600904.us.archive.org/25/items/march-newsletter/March%20Newsletter.pdf", date: "March 2026"}
+    {url: "https://ia600904.us.archive.org/25/items/march-newsletter/March%20Newsletter.pdf", date: "March 2026"},
+    {url: "https://ia601409.us.archive.org/12/items/1-year-newsletter/1%20Year%20Newsletter.pdf", date: "One Year Anniversary"}
   ]
   let letters = letter.reverse();
   // useEffect(() => {
