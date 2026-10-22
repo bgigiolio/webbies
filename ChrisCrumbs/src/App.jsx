@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 // import axios from 'axios';
 import gif from './assets/IMG_3205.gif'
-
+// URL: https://chrisletter.onrender.com/
 function App() {
   const [count, setCount] = useState(0)
   // const baseURL = 'http://localhost:5000'
@@ -19,7 +19,9 @@ function App() {
     {url: "https://ia903106.us.archive.org/15/items/january-newsletter/January%20Newsletter.pdf", date: "January 2026"},
     {url: "https://ia801906.us.archive.org/8/items/feb-news-letter-feb-news-letter-feb-news-letter/Feb%20News%20LetterFeb%20News%20Letter%20-%20Feb%20News%20Letter.pdf", date: "February 2026"},
     {url: "https://ia600904.us.archive.org/25/items/march-newsletter/March%20Newsletter.pdf", date: "March 2026"},
-    {url: "https://ia601409.us.archive.org/12/items/1-year-newsletter/1%20Year%20Newsletter.pdf", date: "One Year Anniversary"}
+    {url: "https://ia601409.us.archive.org/12/items/1-year-newsletter/1%20Year%20Newsletter.pdf", date: "One Year Anniversary"},
+    {url: "https://www.youtube.com/watch?v=D5ae_Op7Y1Y", date:"Brief Hiatus"},
+    {url: "https://ia600607.us.archive.org/33/items/newsletter-13/Newsletter13.pdf", date:"September 2026"}
   ]
   let letters = letter.reverse();
   // useEffect(() => {
